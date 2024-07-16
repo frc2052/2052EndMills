@@ -148,44 +148,46 @@
                     {
                         "description": "SAMPLE preset for roughing in Aluminum",
                         "expressions": {
-                            "tool_feedPerRevolution": "0.00166667 in",
+                            "tool_feedPerRevolution": "0.002 in",
                             "tool_feedPerTooth": "0.008in",
                             "tool_feedRamp": "tool_feedPlunge",
-                            "tool_spindleSpeed": "12000rpm",
+                            "tool_spindleSpeed": "14000rpm",
                             "tool_stepdown": "0.02 in",
-                            "use_tool_stepdown": "false",
+                            "use_tool_stepdown": "true",
                             "use_tool_stepover": "false"
                         },
-                        "f_n": 0.00166667,
+                        "f_n": 0.002,
                         "f_z": 0.008,
                         "guid": "65008792-a9bd-4119-bdd2-fd177fb0d461",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 12000,
-                        "n_ramp": 12000,
+                        "n": 14000,
+                        "n_ramp": 14000,
                         "name": "Aluminum - Aggressive",
+                        "stepdown": 0.02,
                         "tool-coolant": "flood",
-                        "use-stepdown": false,
+                        "use-stepdown": true,
                         "use-stepover": false,
-                        "v_c": 392.6990816987241,
-                        "v_f": 96,
-                        "v_f_leadIn": 96,
-                        "v_f_leadOut": 96,
-                        "v_f_plunge": 20.00004,
-                        "v_f_ramp": 20.00004,
-                        "v_f_transition": 96
+                        "v_c": 458.14892864851146,
+                        "v_f": 112,
+                        "v_f_leadIn": 112,
+                        "v_f_leadOut": 112,
+                        "v_f_plunge": 28,
+                        "v_f_ramp": 28,
+                        "v_f_transition": 112
                     },
                     {
                         "description": "SAMPLE preset for roughing in Aluminum",
                         "expressions": {
+                            "tool_feedPerRevolution": "0.0015 in",
                             "tool_feedPerTooth": "0.005in",
                             "tool_feedRamp": "tool_feedPlunge",
                             "tool_spindleSpeed": "12000 rpm",
                             "tool_stepdown": "0.013 in"
                         },
-                        "f_n": 0.0013942271961901345,
+                        "f_n": 0.0015,
                         "f_z": 0.005,
                         "guid": "cf3547e7-f681-4bee-96ef-03c44402209b",
                         "material": {
@@ -204,8 +206,8 @@
                         "v_f": 60,
                         "v_f_leadIn": 60,
                         "v_f_leadOut": 60,
-                        "v_f_plunge": 16.730726354281614,
-                        "v_f_ramp": 16.730726354281614,
+                        "v_f_plunge": 18,
+                        "v_f_ramp": 18,
                         "v_f_transition": 60
                     },
                     {
@@ -533,7 +535,7 @@
             "BMC": "carbide",
             "description": "Quarter2Flute",
             "expressions": {
-                "tool_bodyLength": "1.222 in",
+                "tool_bodyLength": "1.25 in",
                 "tool_description": "'Quarter2Flute'",
                 "tool_material": "'carbide'",
                 "tool_number": "4",
@@ -548,12 +550,12 @@
                 "CSP": false,
                 "DC": 0.25,
                 "HAND": true,
-                "LB": 1.222,
+                "LB": 1.25,
                 "LCF": 0.75,
                 "NOF": 2,
                 "OAL": 2.5,
                 "SFDM": 0.25,
-                "assemblyGaugeLength": 1.222,
+                "assemblyGaugeLength": 1.25,
                 "shoulder-length": 1.222
             },
             "guid": "c66f21ca-7d75-44dc-9190-74ade52c68b7",
@@ -576,33 +578,68 @@
                             "tool_coolant": "'mist'",
                             "tool_feedEntry": "tool_feedCutting/2",
                             "tool_feedPerRevolution": ".002 in",
-                            "tool_feedPerTooth": ".003 in",
+                            "tool_feedPerTooth": ".0023 in",
                             "tool_feedRamp": "tool_feedPlunge",
-                            "tool_spindleSpeed": "12000 rpm",
-                            "tool_stepdown": ".02 in",
-                            "use_tool_stepdown": "true"
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": ".01in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
                         },
                         "f_n": 0.002,
-                        "f_z": 0.003,
+                        "f_z": 0.0023,
                         "guid": "5ee043e8-eb27-447f-931c-f35a958daaa0",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 12000,
-                        "n_ramp": 12000,
-                        "name": "Aluminum",
-                        "stepdown": 0.02,
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "NiceAluminum",
+                        "stepdown": 0.01,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": false,
-                        "v_c": 785.3981633974482,
-                        "v_f": 72,
-                        "v_f_leadIn": 36,
-                        "v_f_leadOut": 72,
-                        "v_f_plunge": 24,
-                        "v_f_ramp": 24,
-                        "v_f_transition": 72
+                        "v_c": 1178.0972450961724,
+                        "v_f": 82.8,
+                        "v_f_leadIn": 41.4,
+                        "v_f_leadOut": 82.8,
+                        "v_f_plunge": 36,
+                        "v_f_ramp": 36,
+                        "v_f_transition": 82.8
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'mist'",
+                            "tool_feedEntry": "tool_feedCutting/2",
+                            "tool_feedPerRevolution": ".003 in",
+                            "tool_feedPerTooth": ".003 in",
+                            "tool_feedRamp": "tool_feedPlunge",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": ".035 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.003,
+                        "f_z": 0.003,
+                        "guid": "542d0f43-600e-42bc-a4a9-e60dbcd03044",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "FastAluminum",
+                        "stepdown": 0.035,
+                        "tool-coolant": "mist",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 108,
+                        "v_f_leadIn": 54,
+                        "v_f_leadOut": 108,
+                        "v_f_plunge": 54,
+                        "v_f_ramp": 54,
+                        "v_f_transition": 108
                     }
                 ]
             },
@@ -1025,35 +1062,46 @@
         },
         {
             "BMC": "carbide",
-            "description": "4 Flute Chamfer",
-            "expressions": {
-                "tool_bodyLength": "tool_overallLength-1.251",
-                "tool_description": "'4 Flute Chamfer'",
-                "tool_diameter": ".25 in",
-                "tool_fluteLength": ".25 in",
-                "tool_material": "'carbide'",
-                "tool_numberOfFlutes": "4",
-                "tool_overallLength": "2.542 in",
-                "tool_productId": "'642500090'",
-                "tool_shaftDiameter": ".25 in",
-                "tool_shoulderLength": "tool_bodyLength-tool_fluteLength",
-                "tool_vendor": "'OnlineCarbide.com'"
-            },
+            "description": "1/4\" CHAMFER MILL",
             "geometry": {
                 "CSP": false,
                 "DC": 0.25,
                 "HAND": true,
-                "LB": 1.291,
-                "LCF": 0.25,
+                "LB": 1,
+                "LCF": 0.125,
                 "NOF": 4,
-                "OAL": 2.542,
+                "OAL": 2.5,
                 "SFDM": 0.25,
                 "TA": 45,
-                "assemblyGaugeLength": 1.291,
-                "shoulder-length": 1.041,
+                "assemblyGaugeLength": 2.537,
+                "shoulder-length": 1,
                 "tip-diameter": 0
             },
-            "guid": "0431f1b5-ceff-48be-adff-3aec62023f72",
+            "guid": "46e8fb22-9b69-4b75-9248-addffbc9b626",
+            "holder": {
+                "description": "ER20",
+                "gaugeLength": 1.537,
+                "guid": "5dce5b72-d4d8-45e1-a13f-b9f80605458d",
+                "last_modified": 1691548484593,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 0.787,
+                        "lower-diameter": 1.1,
+                        "upper-diameter": 1.1
+                    },
+                    {
+                        "height": 0.75,
+                        "lower-diameter": 0.75,
+                        "upper-diameter": 0.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1065,43 +1113,66 @@
                 "turret": 0
             },
             "product-id": "642500090",
-            "product-link": "",
+            "product-link": "https://www.onlinecarbide.com/1490degree.html",
             "start-values": {
                 "presets": [
                     {
                         "expressions": {
-                            "tool_feedPerTooth": "0.002 in",
-                            "tool_spindleSpeed": "8000 rpm",
-                            "tool_stepdown": ".15 in",
-                            "use_tool_stepdown": "true"
+                            "tool_coolant": "'mist'"
                         },
-                        "f_n": 0.0016666666666666666,
-                        "f_z": 0.002,
-                        "guid": "79fbb360-c13b-48f3-bfe0-c2e37a3fce62",
+                        "f_n": 0.0011111111111111111,
+                        "f_z": 0.001,
+                        "guid": "8b7fcae0-fb5d-415b-a5c2-59007df01d91",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 8000,
-                        "n_ramp": 8000,
-                        "name": "Untested and Uncontested",
-                        "stepdown": 0.15,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Alumnium",
+                        "tool-coolant": "mist",
+                        "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
-                        "v_f": 64,
-                        "v_f_leadIn": 64,
-                        "v_f_leadOut": 64,
+                        "v_c": 785.3981633974482,
+                        "v_f": 48,
+                        "v_f_leadIn": 48,
+                        "v_f_leadOut": 48,
                         "v_f_plunge": 13.333333333333334,
                         "v_f_ramp": 13.333333333333334,
-                        "v_f_transition": 64
+                        "v_f_transition": 48
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'mist'",
+                            "tool_feedPerTooth": "0.001 in",
+                            "tool_spindleSpeed": "9000 rpm"
+                        },
+                        "f_n": 0.0014814814814814814,
+                        "f_z": 0.001,
+                        "guid": "c1672eb3-aba1-4c9b-8b8a-2bd08974883e",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 9000,
+                        "n_ramp": 9000,
+                        "name": "Polycarb",
+                        "tool-coolant": "mist",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 589.0486225480862,
+                        "v_f": 36,
+                        "v_f_leadIn": 36,
+                        "v_f_leadOut": 36,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 36
                     }
                 ]
             },
             "type": "chamfer mill",
             "unit": "inches",
-            "vendor": "OnlineCarbide.com"
+            "vendor": "ONLINE CARBIDE"
         }
     ],
     "version": 26
