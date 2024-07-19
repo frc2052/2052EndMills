@@ -1173,6 +1173,100 @@
             "type": "chamfer mill",
             "unit": "inches",
             "vendor": "ONLINE CARBIDE"
+        },
+        {
+            "BMC": "carbide",
+            "description": "2\" Spoilboard Surfacing bit",
+            "geometry": {
+                "CSP": false,
+                "DC": 2.04,
+                "HAND": true,
+                "LB": 0.8,
+                "LCF": 0.51,
+                "NOF": 4,
+                "OAL": 2.46,
+                "RE": 0,
+                "SFDM": 0.5,
+                "TA": 0,
+                "assemblyGaugeLength": 0.8,
+                "shoulder-length": 0.52
+            },
+            "guid": "dee28609-5819-4190-b9fb-ad349a45cacd",
+            "last_modified": 1721427543197,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 10,
+                "length-offset": 10,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 10,
+                "turret": 0
+            },
+            "product-id": "ASIN B07VCZVKL7",
+            "product-link": "https://www.amazon.com/CNC-Router-Bit-Wood-NITOMAK/dp/B07VCZVKL7",
+            "reference_guid": "<NEW TOOL GUID>",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 0.5,
+                        "upper-diameter": 0.5
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.002666666666667,
+                        "f_z": 0.002,
+                        "guid": "edfd2249-10a1-4acf-8c50-699bedc27c7b",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 2670.353755551324,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 13.333333333333336,
+                        "v_f_ramp": 13.333333333333336,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "f_n": 0.001333333333333,
+                        "f_z": 0.003,
+                        "guid": "a8c1b2cc-a03a-4467-891e-cf11b90f5ea0",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "MDF",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 5340.707511102648,
+                        "v_f": 120,
+                        "v_f_leadIn": 120,
+                        "v_f_leadOut": 120,
+                        "v_f_plunge": 13.333333333333336,
+                        "v_f_ramp": 13.333333333333336,
+                        "v_f_transition": 120
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "inches",
+            "vendor": "BINSTAK "
         }
     ],
     "version": 26
