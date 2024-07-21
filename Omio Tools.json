@@ -3,7 +3,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "1/8\" Upcut Flat Endmill ",
+            "description": "Upcut Flat Endmill ",
+            "expressions": {
+                "tool_description": "'Upcut Flat Endmill '",
+                "tool_productLink": "'https://www.amazon.com/gp/product/B07P84YFS9'"
+            },
             "geometry": {
                 "CSP": false,
                 "DC": 0.125,
@@ -13,92 +17,10 @@
                 "NOF": 1,
                 "OAL": 1.5,
                 "SFDM": 0.125,
-                "assemblyGaugeLength": 3.0740000000000007,
+                "assemblyGaugeLength": 0.6,
                 "shoulder-length": 0.5
             },
             "guid": "fe7ba10e-df9b-4c35-a7ba-356c8ebff70a",
-            "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "gaugeLength": 2.474,
-                "guid": "",
-                "product-id": "CAT40-ER32-2.35",
-                "product-link": "",
-                "segments": [
-                    {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
-                    },
-                    {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    }
-                ],
-                "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
-            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -110,7 +32,7 @@
                 "turret": 0
             },
             "product-id": "X0022OW5CJ",
-            "product-link": "",
+            "product-link": "https://www.amazon.com/gp/product/B07P84YFS9",
             "start-values": {
                 "presets": [
                     {
@@ -246,11 +168,13 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "1/4\" Upcut Flat Endmill",
+            "description": "Upcut Flat Endmill",
             "expressions": {
                 "tool_bodyLength": ".97 in",
+                "tool_description": "'Upcut Flat Endmill'",
                 "tool_fluteLength": "(3/4) in",
                 "tool_number": "3",
+                "tool_productLink": "'https://www.amazon.com/gp/product/B07KKLNQ75'",
                 "tool_shoulderLength": ".96 in"
             },
             "geometry": {
@@ -262,92 +186,10 @@
                 "NOF": 1,
                 "OAL": 2,
                 "SFDM": 0.25,
-                "assemblyGaugeLength": 3.444,
+                "assemblyGaugeLength": 0.97,
                 "shoulder-length": 0.96
             },
             "guid": "27cdd658-5a13-4a6e-97a5-a34c722ac7ec",
-            "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "gaugeLength": 2.474,
-                "guid": "",
-                "product-id": "CAT40-ER32-2.35",
-                "product-link": "",
-                "segments": [
-                    {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
-                    },
-                    {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    }
-                ],
-                "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
-            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -359,7 +201,7 @@
                 "turret": 0
             },
             "product-id": "31014-SC",
-            "product-link": "",
+            "product-link": "https://www.amazon.com/gp/product/B07KKLNQ75",
             "start-values": {
                 "presets": [
                     {
@@ -428,7 +270,11 @@
         },
         {
             "BMC": "carbide",
-            "description": "1/8\" Flat Downcut Endmill",
+            "description": "Flat Downcut Endmill",
+            "expressions": {
+                "tool_description": "'Flat Downcut Endmill'",
+                "tool_productLink": "'https://www.amazon.com/gp/product/B08THHYLPL'"
+            },
             "geometry": {
                 "CSP": false,
                 "DC": 0.125,
@@ -453,19 +299,19 @@
                 "turret": 0
             },
             "product-id": "N2LXD3.17",
-            "product-link": "",
+            "product-link": "https://www.amazon.com/gp/product/B08THHYLPL",
             "start-values": {
                 "presets": [
                     {
-                        "f_n": 0.001666666666667,
-                        "f_z": 0.001125,
+                        "f_n": 0.0016666666666666663,
+                        "f_z": 0.0011250000000000003,
                         "guid": "efdbb602-0e69-4d33-89d2-be56e61ac2be",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 8000.000000000002,
-                        "n_ramp": 8000.000000000002,
+                        "n": 8000.000000000003,
+                        "n_ramp": 8000.000000000003,
                         "name": "Aluminum",
                         "stepdown": 0.015,
                         "tool-coolant": "flood",
@@ -480,15 +326,15 @@
                         "v_f_transition": 18.000000000000014
                     },
                     {
-                        "f_n": 0.001666666666667,
-                        "f_z": 0.001125,
+                        "f_n": 0.0016666666666666663,
+                        "f_z": 0.0011250000000000003,
                         "guid": "3e6d39c1-c750-4962-bd8d-4aa712c7dd8d",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 8000.000000000002,
-                        "n_ramp": 8000.000000000002,
+                        "n": 8000.000000000003,
+                        "n_ramp": 8000.000000000003,
                         "name": "PolyCarb",
                         "stepdown": 0.015,
                         "tool-coolant": "flood",
@@ -510,8 +356,8 @@
                             "category": "all",
                             "query": ""
                         },
-                        "n": 8000.000000000002,
-                        "n_ramp": 8000.000000000002,
+                        "n": 8000.000000000003,
+                        "n_ramp": 8000.000000000003,
                         "name": "Plywood",
                         "stepdown": 0.05,
                         "tool-coolant": "flood",
@@ -533,10 +379,10 @@
         },
         {
             "BMC": "carbide",
-            "description": "Quarter2Flute",
+            "description": "2-Flute Upcut Endmill",
             "expressions": {
                 "tool_bodyLength": "1.25 in",
-                "tool_description": "'Quarter2Flute'",
+                "tool_description": "'2-Flute Upcut Endmill'",
                 "tool_material": "'carbide'",
                 "tool_number": "4",
                 "tool_numberOfFlutes": "2",
@@ -659,8 +505,11 @@
                 "tool_number": "5",
                 "tool_numberOfFlutes": "1",
                 "tool_overallLength": "50 mm",
+                "tool_productId": "'D0060L17 (D6*17*D6*50L)'",
+                "tool_productLink": "'https://www.chiefdelphi.com/t/grewin-endmill-group-buy-hosted-by-redux/461150'",
                 "tool_shoulderLength": "20 mm",
-                "tool_unit": "'inches'"
+                "tool_unit": "'inches'",
+                "tool_vendor": "'Grewin'"
             },
             "geometry": {
                 "CSP": false,
@@ -685,8 +534,8 @@
                 "number": 5,
                 "turret": 0
             },
-            "product-id": "",
-            "product-link": "",
+            "product-id": "D0060L17 (D6*17*D6*50L)",
+            "product-link": "https://www.chiefdelphi.com/t/grewin-endmill-group-buy-hosted-by-redux/461150",
             "start-values": {
                 "presets": [
                     {
@@ -812,7 +661,7 @@
             },
             "type": "flat end mill",
             "unit": "inches",
-            "vendor": ""
+            "vendor": "Grewin"
         },
         {
             "BMC": "carbide",
@@ -844,7 +693,6 @@
                 "shoulder-length": 0.75
             },
             "guid": "f00fbc9a-02c9-4250-92c6-713f9ccca7f4",
-            "last_modified": 1719934561544,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -857,7 +705,6 @@
             },
             "product-id": "Alu Power E5981016",
             "product-link": "https://www.yg1usa.com/feature/itemdetail.asp?edpno=28573",
-            "reference_guid": "d9a5958c-52c2-4e93-9989-e83604370ce6",
             "start-values": {
                 "presets": [
                     {
@@ -1062,7 +909,10 @@
         },
         {
             "BMC": "carbide",
-            "description": "1/4\" CHAMFER MILL",
+            "description": "CHAMFER MILL",
+            "expressions": {
+                "tool_description": "'CHAMFER MILL'"
+            },
             "geometry": {
                 "CSP": false,
                 "DC": 0.25,
